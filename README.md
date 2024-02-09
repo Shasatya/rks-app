@@ -1,3 +1,3 @@
-git clone 
-npm install 
-npx expo start
+# git clone 
+## npm install 
+## npx expo start
