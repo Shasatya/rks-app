@@ -11,7 +11,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 const login = () => {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={styles.container}>
       <View style={styles.logoContainer}>
         <Image
           style={styles.logo}
@@ -40,6 +40,11 @@ const login = () => {
 
 export default login;
 const styles = StyleSheet.create({
+  container: {
+    backgroundColor: "#fff",
+    width: "100%",
+    height: "100%",
+  },
   logoContainer: {
     display: "flex",
     flexDirection: "column",
